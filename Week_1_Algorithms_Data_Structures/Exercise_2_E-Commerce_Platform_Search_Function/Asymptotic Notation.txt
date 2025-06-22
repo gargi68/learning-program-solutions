@@ -1,0 +1,22 @@
+-> What is Big O Notation?
+
+Big O notation is a mathematical representation used to describe the upper bound of an algorithm’s running time or space requirement in terms of input size (n). It helps analyze and compare algorithm efficiency, especially for large inputs.
+
+It focuses on how the runtime grows, not the actual runtime:
+- O(1): Constant time – performance doesn’t change with input size.
+- O(n): Linear time – performance increases linearly with input size.
+- O(log n): Logarithmic time – very efficient for large datasets.
+- O(n^2): Quadratic time – performance degrades rapidly for large input.
+
+Big O helps developers:
+- Predict scalability
+- Choose the most efficient algorithm
+- Optimize performance-critical code
+
+-> Best, Average, and Worst-Case Scenarios for Search Operations:
+
+- Best Case: The search item is found at the first position (O(1)).
+- Average Case: The item is somewhere in the middle (O(n/2) ≈ O(n) for linear search).
+- Worst Case: The item is not present or at the end (O(n) for linear, O(log n) for binary).
+
+Binary search has a better worst-case performance but requires sorted data.

@@ -1,0 +1,9 @@
+What is recursion?
+Recursion is a programming technique where a method calls itself to solve a smaller instance of the same problem. It helps simplify problems that can be broken down into smaller sub-problems.
+
+Why use recursion?
+It is useful in problems like:
+1. Tree/graph traversal
+2. Divide and conquer algorithms
+3. Problems with repetitive patterns (like Fibonacci, factorial, etc.)
+4. Financial predictions where each value depends on the previous one

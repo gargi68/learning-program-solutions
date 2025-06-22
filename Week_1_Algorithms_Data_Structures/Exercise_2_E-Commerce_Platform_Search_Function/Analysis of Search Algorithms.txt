@@ -1,0 +1,17 @@
+- Linear Search:
+  - Time complexity: O(n)
+  - Works on unsorted data
+  - Simple to implement
+  - Becomes inefficient for large datasets
+
+- Binary Search:
+  - Time complexity: O(log n)
+  - Requires the data to be sorted
+  - Much faster for large datasets
+  - Efficient and scalable for search-heavy applications
+
+- Suitability for an E-commerce Platform:
+  - Binary search is more suitable when product lists are large and sorted
+  - Provides better performance for frequent search operations
+  - Linear search may be acceptable for small datasets or temporary data
+  - For best real-world performance, consider using optimized data structures like hash maps or database indexing

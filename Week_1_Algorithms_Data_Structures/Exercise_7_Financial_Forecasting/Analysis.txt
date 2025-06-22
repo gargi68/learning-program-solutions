@@ -1,0 +1,11 @@
+Time Complexity:
+-The recursive algorithm calls itself once per year.
+-Hence, time complexity is O(n), where n = number of years.
+
+Space Complexity:
+Due to the function call stack, space complexity is also O(n) for n recursive calls.
+
+Optimization (To Avoid Excessive Computation):
+-Tail Recursion: If the language/compiler supports tail call optimization, rewriting the function in a tail-recursive manner can help.
+-Memoization: Not needed here as subproblems are not reused. But useful in problems with overlapping subproblems like Fibonacci.
+-Iterative Approach: Using a loop instead of recursion to avoid stack overflow for large n.
